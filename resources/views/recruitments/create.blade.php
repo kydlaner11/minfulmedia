@@ -27,7 +27,7 @@
                             </div>
                         @endif
 
-                        Hi Admin, {{ Auth::user()->name }}
+                        Hi Employee, {{ Auth::user()->name }}
                     </div>
                 </div>
             </div>
