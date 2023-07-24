@@ -5,8 +5,9 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\FormController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\RecruitmentController;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Recruitment;
-use Barryvdh\DomPDF\Facade\Pdf;
+// use Barryvdh\DomPDF\Facade\Pdf;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,7 +40,6 @@ Route::get('/create', function () {
     return view('create');
 });
 
-
 Route::resource('products', ProductController::class);
 
 Route::resource('forms', FormController::class);
@@ -52,15 +52,24 @@ Route::get('/faq', function () {
     return view('faq');
 });
 
-Route::get('/recruitments/printpdf', [\App\Http\Controllers\RecruitmentController::class, 'printpdf']);
+Route::get('/recruitment/export_excel', [\App\Http\Controllers\RecruitmentController::class, 'export_excel']);
 
-Route::get('/recruitments/json', [\App\Http\Controllers\RecruitmentController::class, 'data'])->name('recruitments.data');
+// Route::get('/recruitment/cetak_pdf', 'RecruitmentController@cetak_pdf');
+
+// Route::get('/recruitments/pdf', [RecruitmentController::class, 'createPDF']);
+
+// Route::get('/recruitment/cetak_pdf', [\App\Http\Controllers\RecruitmentController::class, 'cetak_pdf']);
+
+// Route::get('/recruitments/printpdf', [\App\Http\Controllers\RecruitmentController::class, 'printpdf']);
+
+Route::get('/recruitment/json', [\App\Http\Controllers\RecruitmentController::class, 'data'])->name('recruitment.data');
+Route::get('/recruitment', [\App\Http\Controllers\RecruitmentController::class, 'index'])->name('recruitment.index');
 
  
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::middleware(['auth'])->group(function () {
-    Route::resource('recruitments', RecruitmentController::class);
-});
+// Route::middleware(['auth'])->group(function () {
+//     Route::resource('recruitments', RecruitmentController::class);
+// });

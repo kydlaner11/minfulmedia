@@ -53,7 +53,81 @@
         </div>
     </div>
 
-    <main>
+    <!-- Section: FAQ -->
+    <section>
+        <h1 class="text-center mb-4 pb-2 warna6 fw-bold">FAQ</h1>
+        <h2 style="font-size: 25px;" class="text-center mb-5 warna6">
+            Find the answers for the most frequently asked questions below
+        </h2>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h4 class="mb-3 warna6"><i class="far fa-paper-plane warna6 pe-2"></i> A simple
+                    question?</h4>
+                <p style="font-size: 20px;" align="justify">
+                    Anime, dengan keberagamannya yang tak terhitung jumlahnya, menyentuh berbagai tema dan genre. Dari petualangan yang menakjubkan hingga romansa yang indah, 
+                    dari dunia fantasi yang memikat hingga cerita-cerita ilmiah yang mengguncang pikiran kita, anime menawarkan sebuah jendela ke dunia yang lain, yang memikat 
+                    dan menggetarkan hati kita. Setiap anime memiliki gaya seni yang unik, mempersembahkan animasi yang memesona dan desain karakter yang memikat. 
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h4 class="mb-3 warna6"><i class="fas fa-pen-alt warna6 pe-2"></i> A question
+                    that
+                    is longer then the previous one?</h4>
+                <p style="font-size: 20px;" align="justify">
+                    Anime, dengan keberagamannya yang tak terhitung jumlahnya, menyentuh berbagai tema dan genre. Dari petualangan yang menakjubkan hingga romansa yang indah, 
+                    dari dunia fantasi yang memikat hingga cerita-cerita ilmiah yang mengguncang pikiran kita, anime menawarkan sebuah jendela ke dunia yang lain, yang memikat 
+                    dan menggetarkan hati kita. Setiap anime memiliki gaya seni yang unik, mempersembahkan animasi yang memesona dan desain karakter yang memikat.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h4 class="mb-3 warna6"><i class="fas fa-user warna6 pe-2"></i> A simple
+                    question?
+                </h4>
+                <p style="font-size: 20px;" align="justify">
+                    Anime, dengan keberagamannya yang tak terhitung jumlahnya, menyentuh berbagai tema dan genre. Dari petualangan yang menakjubkan hingga romansa yang indah, 
+                    dari dunia fantasi yang memikat hingga cerita-cerita ilmiah yang mengguncang pikiran kita, anime menawarkan sebuah jendela ke dunia yang lain, yang memikat 
+                    dan menggetarkan hati kita. Setiap anime memiliki gaya seni yang unik, mempersembahkan animasi yang memesona dan desain karakter yang memikat.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h4 class="mb-3 warna6"><i class="fas fa-rocket warna6 pe-2"></i> A simple
+                    question?
+                </h4>
+                <p style="font-size: 20px;" align="justify">
+                    Anime, dengan keberagamannya yang tak terhitung jumlahnya, menyentuh berbagai tema dan genre. Dari petualangan yang menakjubkan hingga romansa yang indah, 
+                    dari dunia fantasi yang memikat hingga cerita-cerita ilmiah yang mengguncang pikiran kita, anime menawarkan sebuah jendela ke dunia yang lain, yang memikat 
+                    dan menggetarkan hati kita. Setiap anime memiliki gaya seni yang unik, mempersembahkan animasi yang memesona dan desain karakter yang memikat. 
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h4 class="mb-3 warna6"><i class="fas fa-home warna6 pe-2"></i> A simple
+                    question?
+                </h4>
+                <p style="font-size: 20px;" align="justify">Anime, dengan keberagamannya yang tak terhitung jumlahnya, menyentuh berbagai tema dan genre. Dari petualangan yang menakjubkan hingga romansa yang indah, 
+                    dari dunia fantasi yang memikat hingga cerita-cerita ilmiah yang mengguncang pikiran kita, anime menawarkan sebuah jendela ke dunia yang lain, yang memikat 
+                    dan menggetarkan hati kita. Setiap anime memiliki gaya seni yang unik, mempersembahkan animasi yang memesona dan desain karakter yang memikat. 
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <h4 class="mb-3 warna6"><i class="fas fa-book-open warna6 pe-2"></i> Another
+                    question that is longer than usual</h4>
+                <p style="font-size: 20px;" align="justify">
+                    Anime, dengan keberagamannya yang tak terhitung jumlahnya, menyentuh berbagai tema dan genre. Dari petualangan yang menakjubkan hingga romansa yang indah, 
+                    dari dunia fantasi yang memikat hingga cerita-cerita ilmiah yang mengguncang pikiran kita, anime menawarkan sebuah jendela ke dunia yang lain, yang memikat 
+                    dan menggetarkan hati kita. Setiap anime memiliki gaya seni yang unik, mempersembahkan animasi yang memesona dan desain karakter yang memikat. 
+                </p>
+            </div>
+        </div>
+    </section>
+<!-- Section: FAQ -->
+
+    <!-- <main>
         <section class="faq-container">
             <div class="faq-one">
                 <h3 class="faq-page">Apakah semua barang disini harus pre-order dulu?</h3>
@@ -112,7 +186,7 @@
                 </div>
             </div>
         </section>
-    </main>
+    </main> -->
     
     <!-- Footer -->
     <div class="container-fluid py-5 warna5 text-light">
