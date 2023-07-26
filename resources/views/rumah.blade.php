@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Izumi Store</title>
+    <title>MindfullMedia</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/css/master.css">
@@ -56,7 +56,7 @@
     <!-- banner -->
     <div class="container-fluid banner d-flex align-items-center">
         <div class="container text-white">
-            <h1>Otaku Studio</h1>
+            <h1>MINDFULLMEDIA</h1>
             <div class="col-md-8 offset-md-2">
             </div>
         </div>
@@ -75,19 +75,15 @@
                         <h3 style="font-size: 30px; color: #633971;">Description<br></h3>
                         <p align="justify" style="font-size: 20px;">
                            <strong> Deskripsi Perusahaan :</strong><br> 
-                            AnimeEdit Studio adalah perusahaan freelancer yang berfokus pada layanan editing video, presentasi, dan foto dengan tema anime. 
-                            Kami menyediakan solusi kreatif dan profesional untuk memenuhi kebutuhan visual anime Anda. Tim kami terdiri dari penggemar anime yang berpengalaman 
-                            dalam mengedit video, membuat presentasi menarik, dan mengolah foto dengan keahlian dalam menghadirkan elemen-elemen anime yang menonjol. 
-                            Dengan dedikasi kami terhadap dunia anime, kami siap membantu Anda menghasilkan karya-karya visual yang memukau. <br>
+                           Selamat datang di platform MindfulMedia yang inovatif dan terpercaya, di mana bakat-bakat kreatif dan profesional berkumpul untuk menghasilakan project yang luar biasa. Di sini, kami menyediakan lapangan kerja yang inspiratif dan memberdayakan, di mana para freelancer dapat mengejar passion mereka dalam berbagai bidang seperti desain grafis, animator, video editor, copywriting, dan banyak lagi. Kami berkomitmen untuk memberikan kesempatan berharga bagi klien dan freelancer untuk terhubung, berkolaborasi, dan meraih kesuksesan bersama. <br>
                         </p>
                         <h3 style="font-size: 30px; color: #633971;">Our Service</h3>
                         <p align="justify" style="font-size: 20px;">
                             <strong>Layanan yang kami tawarkan :</strong><br>
-                            1. Editing Video: Kami dapat melakukan editing video anime yang meliputi pemotongan, penggabungan, transisi, efek khusus, penyesuaian warna, dan pengeditan 
+                            1. Editing Video: Kami dapat melakukan editing video yang meliputi pemotongan, penggabungan, transisi, efek khusus, penyesuaian warna, dan pengeditan 
                             suara.<br>
-                            2. Presentasi: Kami menyediakan desain presentasi kreatif dengan elemen-elemen anime yang menarik, termasuk penggunaan ilustrasi, karakter anime, dan efek 
-                            animasi.<br>
-                            3. Editing Foto: Kami mengolah foto dengan tema anime, termasuk retouching, penyesuaian warna, penambahan elemen anime, dan manipulasi gambar.<br>
+                            2. Ilustrasi: Kami menyediakan desain ilustrasi kreatif yang menarik, termasuk penggunaan ilustrasi dan karakter.<br>
+                            3. Editing Foto: Kami mengolah foto, termasuk retouching, penyesuaian warna, dan manipulasi gambar.<br>
                         </p>
                     </div>
                 </div>
@@ -105,18 +101,18 @@
 
     <!-- bio -->
         <div class="text-center py-5">
-            <h3 style="font-size: 30px; color: #633971;" class="h3">Otaku Studio</h3>
+            <h3 style="font-size: 30px; color: #633971;" class="h3">MindfullMedia</h3>
 
             <section class="about">
                 <div class="row">
                     <div class="content">
                         <h3 style="font-size: 30px; color: #633971;">Tim Kami<br></h3>
                         <p align="justify" style="font-size: 20px;">
-                        Kami memiliki tim yang terdiri dari editor video, desainer presentasi, dan retoucher foto yang berbakat dan berdedikasi dalam menciptakan karya-karya 
-                        berkualitas tinggi dengan tema anime. Setiap anggota tim kami memiliki pengetahuan yang mendalam tentang budaya anime, gaya visual, dan pengalaman dalam 
+                        Kami memiliki tim yang terdiri dari editor video, desainer presentasi, ilustrator, dan retoucher foto yang berbakat dan berdedikasi dalam menciptakan karya-karya 
+                        berkualitas tinggi. Setiap anggota tim kami memiliki pengetahuan yang mendalam tentang editor, gaya visual, dan pengalaman dalam 
                         industri ini. Kami berkomitmen untuk memberikan hasil yang memenuhi harapan Anda.
                         </p>
-                        <h3 style="font-size: 30px; color: #633971;">some words that describe Otaku Studio</h3>
+                        <h3 style="font-size: 30px; color: #633971;">some words that describe MindfullMedia</h3>
                         <p align="justify" style="font-size: 20px;">
                             Kreativitas Tanpa Batas: Kami percaya bahwa dalam dunia video, hanya imajinasi yang dapat membatasi apa yang dapat kita capai. Dalam setiap proyek, kami berusaha 
                             untuk mengeksplorasi batas-batas kreativitas dan memberikan hasil yang menginspirasi.<br><br>
@@ -135,24 +131,22 @@
         <div class="container-fluid py-5">
             <div class="container text-center">
                 <h3 class="h3">Skills</h3><br>
-                <p align="justify" style="font-size: 19px; color: #633971;">Saya adalah seorang freelancer dengan keahlian di bidang coding website, 
-                editing video, dan bermain game. Di sini, saya menawarkan berbagai layanan yang dapat memenuhi kebutuhan Anda. here some words that describe
-                my skills:<br><br>
-                <strong>-</strong> Coding Website yang Profesional: Saya memiliki keahlian dalam mengembangkan website yang responsif, menarik, dan fungsional. 
-                Dengan pemahaman mendalam tentang bahasa pemrograman dan kerangka kerja terkini, saya mampu menciptakan website yang sesuai dengan visi dan kebutuhan Anda.<br><br>
+                <p align="justify" style="font-size: 19px; color: #633971;">Kami adalah editor dengan berbagai macam keahlian. Di sini kami menawarkan berbagai layanan yang dapat memenuhi kebutuhan Anda. here some words that describe
+                our skills:<br><br>
+                <strong>-</strong> Editing foto: Kami memiliki keahlian dalam editing foto yang menarik.
+                Dengan pemahaman tool - tool dan kerangka kerja terkini, kami mampu menciptakan hasil foto yang sesuai dengan visi dan kebutuhan Anda.<br><br>
                 <strong>-</strong>Pengeditan Video yang Kreatif: Saya memiliki keahlian dalam mengedit video dengan menggunakan perangkat lunak profesional. Dari pemotongan, pengaturan warna, 
                 efek khusus, hingga penyesuaian audio, saya dapat memberikan hasil akhir yang memukau dan memperkuat pesan yang ingin Anda sampaikan.<br><br>
-                <strong>-</strong>Kombinasi Keterampilan yang Unik: Keterampilan saya dalam coding website, editing video, dan bermain game memberikan keunggulan unik dalam menjalankan 
+                <strong>-</strong>Ilustrasi: Keterampilan kami dalam ilustrasi, editing video, dan bermain game memberikan keunggulan unik dalam menjalankan 
                 proyek-proyek digital. Dengan pemahaman mendalam tentang teknologi dan kreativitas, saya dapat menghadirkan solusi yang inovatif dan berkualitas tinggi.<br><br>
-                <strong>-</strong>Kolaborasi yang Efektif: Saya mengutamakan kerjasama yang kuat dengan klien. Saya berusaha untuk memahami visi dan kebutuhan Anda secara mendalam dan bekerja 
-                sama secara efektif untuk mencapai tujuan bersama. Saya percaya bahwa komunikasi yang baik dan kerjasama yang solid adalah kunci keberhasilan proyek.<br><br>
+                <strong>-</strong>Kolaborasi yang Efektif: Kami mengutamakan kerjasama yang kuat dengan klien. Kami berusaha untuk memahami visi dan kebutuhan Anda secara mendalam dan bekerja sama secara efektif untuk mencapai tujuan bersama. Kami percaya bahwa komunikasi yang baik dan kerjasama yang solid adalah kunci keberhasilan proyek.<br><br>
 
                 </p>
 
                 <div class="row mt-5">
                     <div class="col-md-4 mb-3">
                         <div class="highlighted-keahlian keahlian-satu d-flex justify-content-center align-items-center">
-                            <h4 class="text-white"><a class="no-decoration" href="#">coding website</a></h4>
+                            <h4 class="text-white"><a class="no-decoration" href="#">editing foto</a></h4>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3">
@@ -162,7 +156,7 @@
                     </div>
                     <div class="col-md-4 mb-3">
                         <div class="highlighted-keahlian keahlian-tiga d-flex justify-content-center align-items-center">
-                            <h4 class="text-white"><a class="no-decoration" href="#">Playing Games</a></h4>
+                            <h4 class="text-white"><a class="no-decoration" href="#">Ilustrasi</a></h4>
                         </div>
                     </div>
                 </div>
