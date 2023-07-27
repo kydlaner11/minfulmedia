@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Employee Page</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/css/form.css">
@@ -15,57 +15,24 @@
     @section('content')
 
     <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div style="background-color: #633971; color: white; font-size: 16px;" class="card-header text-center">{{ __('Logged in') }}</div>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+                    <div class="card-body text-center">
+                        @if (session('status'))
+                            <div class="alert alert-success" role="alert">
+                                {{ session('status') }}
+                            </div>
+                        @endif
 
-                    {{ __('You are logged in!') }}
+                        Hi Employee, {{ Auth::user()->name }}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-
-    <!-- navbar
-    <nav class="navbar navbar-expand-lg navbar-dark warna5">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item me-4 mt-1">
-                        <img src="/image/logoblue.png" style="width: 30px;" alt="">
-                    </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link" href="/projects">Job</a>
-                    </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link" href="/forms">Forms</a>
-                    </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link" href="/faq">FAQ</a>
-                    </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link" href="/recruitments/create">Recruitments</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
 
     <!-- banner
     <div class="container-fluid banner d-flex align-items-center">
@@ -125,19 +92,9 @@
             <label>&copy;Izumiidesu</label>
         </div>
     </div> -->
-
     @endsection
+
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
-    <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min
-    .js"
-    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi
-    12/QExE" crossorigin="anonymous"></script>
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.
-    min.js"
-    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9U
-    oXAB7BZ" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MindfullMedia</title>
+    <meta name="viewport" content="width=device-width, initial-
+    <title>MindfulMedia</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/css/master.css">
     
 </head>
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark warna5">
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark warna5" style="background-color:#633971">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
@@ -22,29 +22,29 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item me-4 mt-1">
-                        <img src="/image/logoblue.png" style="width: 30px;" alt="">
+                        <img src="/image/logo1.png" style="height: 45px;" alt="">
                     </li>
                     <li class="nav-item me-4">
-                        <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" style="color:#F5E9CF;" href="/">Home</a>
                     </li>
                     <li class="nav-item me-4">
-                        <a class="nav-link" href="/projects">Job</a>
+                    <a class="nav-link" style="color:#F5E9CF;" href="/projects">Job</a>
                     </li>
                     <li class="nav-item me-4">
-                        <a class="nav-link" href="/forms">Forms</a>
+                    <a class="nav-link" style="color:#F5E9CF;" href="/forms">Forms</a>
                     </li>
                     <li class="nav-item me-4">
-                        <a class="nav-link" href="/faq">FAQ</a>
+                    <a class="nav-link" style="color:#F5E9CF;" href="/faq">FAQ</a>
                     </li>
                     <li class="nav-item me-4">
-                        <a class="nav-link" href="/recruitments/create">Recruitments</a>
+                    <a class="nav-link" style="color:#F5E9CF;" href="/recruitments/create">Recruitments</a>
                     </li>
                 </ul>
             </div>
             <div class="dropdown">
-            <button style="font-size:14px;" class="btn btn-secondary dropdown-toggle warna3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Login
-            </button>
+                <button style="font-size:14px;" class="btn btn-secondary dropdown-toggle warna3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Login
+                </button>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/recruitments">Admin</a></li>
             </ul>
@@ -55,51 +55,51 @@
 
     <!-- banner -->
     <div class="container-fluid banner d-flex align-items-center">
+        <div style="margin-left: 200px;" class="container text-left text-light">
+            <h1 style="font-size: 47px; font-family: arial;"><strong>Make your best portfolio with Us</strong></h1>
+            <button type="button" class="btn btn-primary" style="background-color: #633971;"><a class="link" style="text-decoration: none;" href="/recruitments/create">Connect</a></button>
+        </div>
         <div class="container text-white">
-            <h1>Otaku Studio</h1>
+            <img src="/image/hero.png" alt="" style="height: 650px;">
             <div class="col-md-8 offset-md-2">
             </div>
         </div>
     </div>
+    
+     <!-- bio -->
+     <div class="text-center py-5">
+            <h3 class="h3">About Us</h3>
 
-
-    <!-- bio -->
-    <div class="text-center py-5">
-        <h3 class="h3">About Us</h3>
-
-    <section class="about">
-        <div class="row">
-            <div class="images mt-3 mb-3">
-                <img src="/image/blue.jfif" alt="">
-            </div>
-            <div class="content">
-                <h3 style="font-size: 30px; color: #633971;">Description<br></h3>
-                <p align="justify" style="font-size: 20px;">
-                   <strong> Deskripsi Perusahaan :</strong><br> 
-                    AnimeEdit Studio adalah perusahaan freelancer yang berfokus pada layanan editing video, presentasi, dan foto dengan tema anime. 
-                    Kami menyediakan solusi kreatif dan profesional untuk memenuhi kebutuhan visual anime Anda. Tim kami terdiri dari penggemar anime yang berpengalaman 
-                    dalam mengedit video, membuat presentasi menarik, dan mengolah foto dengan keahlian dalam menghadirkan elemen-elemen anime yang menonjol. 
-                    Dengan dedikasi kami terhadap dunia anime, kami siap membantu Anda menghasilkan karya-karya visual yang memukau. <br>
-                </p>
-                <h3 style="font-size: 30px; color: #633971;">Our Service</h3>
-                <p align="justify" style="font-size: 20px;">
-                    <strong>Layanan yang kami tawarkan :</strong><br>
-                    1. Editing Video: Kami dapat melakukan editing video anime yang meliputi pemotongan, penggabungan, transisi, efek khusus, penyesuaian warna, dan pengeditan 
-                    suara.<br>
-                    2. Presentasi: Kami menyediakan desain presentasi kreatif dengan elemen-elemen anime yang menarik, termasuk penggunaan ilustrasi, karakter anime, dan efek 
-                    animasi.<br>
-                    3. Editing Foto: Kami mengolah foto dengan tema anime, termasuk retouching, penyesuaian warna, penambahan elemen anime, dan manipulasi gambar.<br>
-                </p>
-            </div>
+            <section class="about">
+                <div class="row">
+                    {{-- <div class="images mt-3 mb-3">     
+                        <img src="/image/blue.jfif" alt="">
+                    </div> --}}
+                    <div class="content">
+                        <h3 style="font-size: 30px; color: #633971;">Description<br></h3>
+                        <p align="justify" style="font-size: 20px;">
+                           <strong> Deskripsi Perusahaan :</strong><br> 
+                           Selamat datang di platform MindfulMedia yang inovatif dan terpercaya, di mana bakat-bakat kreatif dan profesional berkumpul untuk menghasilakan project yang luar biasa. Di sini, kami menyediakan lapangan kerja yang inspiratif dan memberdayakan, di mana para freelancer dapat mengejar passion mereka dalam berbagai bidang seperti desain grafis, animator, video editor, copywriting, dan banyak lagi. Kami berkomitmen untuk memberikan kesempatan berharga bagi klien dan freelancer untuk terhubung, berkolaborasi, dan meraih kesuksesan bersama. <br>
+                        </p>
+                        <h3 style="font-size: 30px; color: #633971;">Our Service</h3>
+                        <p align="justify" style="font-size: 20px;">
+                            <strong>Layanan yang kami tawarkan :</strong><br>
+                            1. Editing Video: Kami dapat melakukan editing video anime yang meliputi pemotongan, penggabungan, transisi, efek khusus, penyesuaian warna, dan pengeditan 
+                            suara.<br>
+                            2. Presentasi: Kami menyediakan desain presentasi kreatif dengan elemen-elemen anime yang menarik, termasuk penggunaan ilustrasi, karakter anime, dan efek 
+                            animasi.<br>
+                            3. Editing Foto: Kami mengolah foto dengan tema anime, termasuk retouching, penyesuaian warna, penambahan elemen anime, dan manipulasi gambar.<br>
+                        </p>
+                    </div>
+                </div>
+            </section>
         </div>
-    </section>
-</div>
-
-<div class="container-fluid py-5">
-<div class="container text-center">
-    <h3 class="h3 py-3">Editing Video Example</h3>
-        <div class="video">
-            <video controls loop autoplay src="video/uwu.mp4" style="width: 70%;"></video>
+    <div class="container-fluid py-5">
+        <div class="container text-center">
+            <h3 class="h3 py-3">Editing Video Example</h3>
+                <div class="video">
+                    <video id="video" controls loop autoplay src="video/uwu.mp4" style="width: 70%;"></video>
+                </div>
         </div>
 </div>
 </div>
@@ -164,13 +164,13 @@
         </div>
     </div>
 </section>
-
-<div class="container-fluid py-5">
-    <div class="container text-center">
-        <h3 class="h3 py-3">My After Effect Project</h3>
-            <div class="video">
-                <video controls loop autoplay src="video/elaina.mp4" style="width: 70%;"></video>
-            </div>
+    <div class="container-fluid py-5">
+        <div class="container text-center">
+            <h3 class="h3 py-3">My After Effect Project</h3>
+                <div class="video">
+                    <video id="video" controls loop src="video/elaina.mp4" style="width: 70%;"></video>
+                </div>
+        </div>
     </div>
 </div>
     
@@ -182,15 +182,20 @@
                     <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-instagram fs-2"></i></a>
                 </div>
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
-                    <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-twitter fs-2"></i></a>
+                    <a class="link" href="https://twitter.com"><i class="fab fa-twitter fs-2"></i></a>
                 </div>
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
-                    <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-whatsapp fs-2"></i></a>
+                    <a class="link" href="wa.me/6289524309404"><i class="fab fa-whatsapp fs-2"></i></a>
                 </div>
         </div>
     </div>
     
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
+    <script>
+        window.onload = function () {
+        var element = document.getElementById('video');
+        element.muted = "muted";}
+    </script>
 </body>
 </html>
