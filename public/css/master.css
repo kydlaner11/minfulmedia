@@ -31,21 +31,21 @@
 }
 
 .keahlian-satu{
-    background: url('../image/codding.png');
+    background: url('../image/keahlian1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .keahlian-dua{
-    background: url('../image/edit.png');
+    background: url('../image/keahlian2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .keahlian-tiga{
-    background: url('../image/game.jpeg');
+    background: url('../image/keahlian3.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
