@@ -47,7 +47,6 @@
     <div class="container-fluid banner d-flex align-items-center">
         <div style="margin-left: 200px;" class="container text-left text-light">
             <h1 style="font-size: 47px; font-family: arial;"><strong>Make your best portfolio with Us</strong></h1>
-            <button type="button" class="btn btn-primary" style="background-color: #633971;"><a class="link" style="text-decoration: none;" href="/recruitments/create">Connect</a></button>
         </div>
         <div class="container text-white">
             <img src="/image/hero.png" alt="" style="height: 650px;">
@@ -59,58 +58,66 @@
     <main>
         <section class="faq-container">
             <div class="faq-one">
-                <h3 class="faq-page">Apakah semua barang disini harus pre-order dulu?</h3>
+                <h3 class="faq-page">Apa saja jenis proyek multimedia yang bisa saya lamar?</h3>
                 <div class="faq-body">
-                    <p align="justify">Hai! semua barang disini belum ready ya teman-teman. 
-                        kita menerapkan made by order, mungkin kalian harus menunggu kurang 
-                        lebih 7 hari hingga pesanan diantarkan.</p>
+                    <p align="justify">Di platform rekrutmen freelance kami, Anda dapat melamar untuk berbagai jenis proyek multimedia, termasuk:
+
+                        Desain Grafis: Desain logo, brosur, pamflet, poster, dan materi pemasaran lainnya.
+                        Animasi: Pembuatan animasi 2D atau 3D untuk iklan, video musik, atau presentasi.
+                        Video Editing: Mengedit video untuk acara, promosi, atau konten online.
+                        Fotografi: Mengambil gambar untuk acara, produk, atau potret.
+                        Audio dan Musik: Produksi musik, editing audio, atau voice-over untuk video.</p>
                 </div>
             </div>
             <hr class="hr-line">
             <div class="faq-two">
-                <h3 class="faq-page">Apa bisa metode pembayaran via Cash On Delivery (COD)?</h3>
+                <h3 class="faq-page">Apa saja keahlian dan kualifikasi yang diperlukan untuk menjadi freelancer multimedia di platform ini?</h3>
                 <div class="faq-body">
-                    <p align="justify" >Hai! Toko kami tidak menerapkan COD ya! Barang akan di proses jika 
-                        kalian sudah melakukan pembayaran via transfer.</p>
+                    <p align="justify" >Kualifikasi dan keahlian yang dibutuhkan akan tergantung pada jenis proyek yang sedang kami rekrut. 
+                        Namun, dalam bidang multimedia, kami mencari freelancer dengan kemampuan dan pengalaman dalam 
+                        perangkat lunak kreatif seperti Adobe Creative Suite (Photoshop, Illustrator, Premiere Pro, After Effects), 
+                        Blender (untuk animasi 3D), DAW (Digital Audio Workstation) untuk produksi musik, dan peralatan fotografi profesional.</p>
                 </div>
             </div>
             <hr class="hr-line">
             <div class="faq-three">
-                <h3 class="faq-page">Apa ada garansi untuk setiap Action Figure?</h3>
+                <h3 class="faq-page">Bagaimana cara melamar untuk proyek multimedia?</h3>
                 <div class="faq-body">
-                    <p align="justify">Hai! Kami memberi garansi kepada setiap Action Figure 
-                        dalam jangka waktu 1 bulan setelah pembelian.</p>
+                    <p align="justify">Anda dapat melamar untuk proyek multimedia dengan membuka halaman proyek terkait di situs kami dan mengirimkan proposal sesuai dengan instruksi yang tertera. 
+                        Pastikan untuk menyertakan portofolio Anda dan rincian pengalaman relevan untuk mendukung aplikasi Anda.</p>
                 </div>
                 <hr class="hr-line">
                 <div class="faq-four">
-                    <h3 class="faq-page">Bagaimana jika barang diterima dalam keadaan rusak?</h3>
+                    <h3 class="faq-page">Apakah saya perlu membayar biaya pendaftaran sebagai freelancer multimedia di platform ini?</h3>
                     <div class="faq-body">
-                        <p align="justify">Hai! Barang yang rusak akan kami kirim ulang 
-                            dengan syarat video unboxing full ya.</p>
+                        <p align="justify">Tidak, pendaftaran sebagai freelancer multimedia di platform kami sepenuhnya gratis. 
+                            Kami tidak membebankan biaya apapun untuk mendaftar atau melamar proyek.</p>
                     </div>
                 </div>
                 <hr class="hr-line">
                 <div class="faq-two">
-                    <h3 class="faq-page">Apa bisa metode pembayaran via Cash On Delivery (COD)?</h3>
+                    <h3 class="faq-page">Berapa lama waktu respon setelah mengirimkan proposal?</h3>
                     <div class="faq-body">
-                        <p align="justify" >Hai! Toko kami tidak menerapkan COD ya! Barang akan di proses jika 
-                        kalian sudah melakukan pembayaran via transfer.</p>
+                        <p align="justify" >Kami berusaha untuk merespon setiap proposal dalam waktu yang wajar. 
+                            Namun, waktu respon dapat bervariasi tergantung pada volume aplikasi yang kami terima dan kompleksitas proyek. 
+                            Kami akan memberi tahu Anda secepat mungkin.</p>
                     </div>
                 </div>
                 <hr class="hr-line">
                 <div class="faq-two">
-                    <h3 class="faq-page">Apa bisa metode pembayaran via Cash On Delivery (COD)?</h3>
+                    <h3 class="faq-page">Apakah ada kesempatan untuk kolaborasi jangka panjang setelah menyelesaikan proyek awal?</h3>
                     <div class="faq-body">
-                        <p align="justify" >Hai! Toko kami tidak menerapkan COD ya! Barang akan di proses jika 
-                        kalian sudah melakukan pembayaran via transfer.</p>
+                        <p align="justify" >Ya, kami senang berkolaborasi dengan freelancer yang memiliki kinerja bagus dan keahlian yang terbukti. 
+                            Setelah menyelesaikan proyek awal dengan sukses, kami akan mempertimbangkan kesempatan untuk kolaborasi 
+                            jangka panjang dalam proyek-proyek mendatang.</p>
                     </div>
                 </div>
                 <hr class="hr-line">
                 <div class="faq-two">
-                    <h3 class="faq-page">Apa bisa metode pembayaran via Cash On Delivery (COD)?</h3>
+                    <h3 class="faq-page">Apakah ada batasan geografis untuk menjadi freelancer multimedia di platform ini?</h3>
                     <div class="faq-body">
-                        <p align="justify" >Hai! Toko kami tidak menerapkan COD ya! Barang akan di proses jika 
-                            kalian sudah melakukan pembayaran via transfer.</p>
+                        <p align="justify" >Tidak, kami menyambut freelancer multimedia dari seluruh dunia. Sebagai platform rekrutmen freelance online, 
+                            kami membuka kesempatan bagi siapa saja dengan kualifikasi yang sesuai dan kemampuan yang dibutuhkan.</p>
                     </div>
                 </div>
             </div>

@@ -48,7 +48,6 @@
     <div class="container-fluid banner d-flex align-items-center">
         <div style="margin-left: 200px;" class="container text-left text-light">
             <h1 style="font-size: 47px; font-family: arial;"><strong>Make your best portfolio with Us</strong></h1>
-            <button type="button" class="btn btn-primary" style="background-color: #633971;"><a class="link" style="text-decoration: none;" href="/recruitments/create">Connect</a></button>
         </div>
         <div class="container text-white">
             <img src="/image/hero.png" alt="" style="height: 650px;">
