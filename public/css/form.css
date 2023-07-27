@@ -6,7 +6,7 @@
     background-color: #8F38A4;
 }
 
-.warna3{
+.warna3 {
     background-color: #C39BD3;
 }
 
@@ -18,21 +18,19 @@
     background-color: #633971;
 }
 
-h2 
-{
+h2 {
     font-weight: 600;
     color: white;
 }
 
-form 
-{
+form {
     padding: 25px;
-    background: #633971; 
+    background: #633971;
     border-radius: 20px;
 }
 
-input, textarea 
-{
+input,
+textarea {
     width: calc(100% - 18px);
     padding: 8px;
     margin-bottom: 20px;
@@ -40,19 +38,19 @@ input, textarea
     border-radius: 10px;
 }
 
-.link{
+.link {
     color: white;
 }
 
-.banner{
+.banner {
     height: 60vh;
-    background: url('../image/everyone.png');
+    background: url('../image/herobg.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 60%;
 }
 
-.send{
+.send {
     width: 100%;
     background-color: grey;
     color: white;
@@ -62,10 +60,10 @@ input, textarea
     transition: all 0.3s ease;
 }
 
-.send:hover{
+.send:hover {
     transform: scale(0.9);
 }
 
-section{
-    padding:2rem 25%;
+section {
+    padding: 2rem 25%;
 }
