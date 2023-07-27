@@ -6,7 +6,7 @@
     background-color: #8F38A4;
 }
 
-.warna3{
+.warna3 {
     background-color: #C39BD3;
 }
 
@@ -20,26 +20,25 @@
 
 .banner {
     height: 60vh;
-    background: url('../image/everyone.png');
+    background: url('../image/herobg.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 60%;
 }
 
-section{
-    padding:2rem 25%;
+section {
+    padding: 2rem 25%;
 }
 
-.faq-container{
+.faq-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.hr-line{
-  width: 60%;
-  margin: auto;
-  
+.hr-line {
+    width: 60%;
+    margin: auto;
 }
 
 .faq-page {
@@ -57,9 +56,10 @@ section{
     margin-top: 15px;
     border-radius: 10px;
 }
-.faq-body{
+
+.faq-body {
     margin: auto;
-    width: 50%; 
+    width: 50%;
     padding: auto;
 }
 
@@ -90,20 +90,20 @@ section{
     content: "\2796";
 }
 
-.container2{
-	max-width: 1170px;
-	margin:auto;
+.container2 {
+    max-width: 1170px;
+    margin: auto;
 }
 
-.row{
-	display: flex;
-	flex-wrap: wrap;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-ul{
-	list-style: none;
+ul {
+    list-style: none;
 }
 
-.link{
+.link {
     color: white;
 }
