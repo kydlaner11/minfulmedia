@@ -5,10 +5,12 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Recruitment;
 use RealRashid\SweetAlert\Facades\Alert;
-// use App\Exports\RecruitmentExport;
-// use Maatwebsite\Excel\Facades\Excel;
+use App\Exports\RecruitmentExport;
+use Maatwebsite\Excel\Facades\Excel;
 use App\Http\Controllers\Controller;
-// use Yajra\DataTables\Facades\DataTables;
+use Yajra\DataTables\Facades\DataTables;
+// use Barryvdh\DomPDF\Facade\Pdf;
+// use PDF;
 
 class RecruitmentController extends Controller
 {
@@ -67,17 +69,35 @@ class RecruitmentController extends Controller
         return redirect()->route('recruitments.index');
     }
 
-    // public function export_excel()
-	// {
-	// 	return Excel::download(new RecruitmentExport, 'recruitment.xlsx');
-	// }
+    public function export_excel()
+    {
+        return Excel::download(new RecruitmentExport, 'recruitment.xlsx');
+    }
 
-    // public function data()
+    // public function cetak_pdf()
     // {
-    //     return DataTables::of(Recruitment::query())->toJson();
+    //     return pdf::download('laporan-recruitment.pdf');
     // }
-    
+
+    // public function createPDF() {
+    //     // retreive all records from db
+    //     $r = Recruitment::all();
+    //     // share data to view
+    //     view()->share('recruitments',$r);
+    //     $pdf = PDF::loadView('pdf_view', $r);
+    //     // download PDF file with download method
+    //     return $pdf->download('pdf_file.pdf');
+    //   }
 
 
+    public function __construct()
+    {
+    $this->middleware('auth');
+    }
+
+    public function data()
+    {
+        return DataTables::of(Recruitment::query())->toJson();
+    }
 }
 ?>

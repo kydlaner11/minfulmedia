@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detail Produk</title>
+    <title>Admin Page</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/css/master.css">
@@ -12,7 +12,9 @@
 <body>
     @include('sweetalert::alert')
     @extends('layouts.app')
+
     @section('content')
+
     <!-- navbar
     <nav class="navbar navbar-expand-lg navbar-dark warna5">
         <div class="container">
@@ -60,21 +62,21 @@
             @csrf
             <!-- @method('PUT') -->
                     <div class="col-lg-5 mb-4">
-                        <img src="{{ url('/image/'.$recruitment->image) }}" class="w-100" alt="">
+                        <img src="{{ url('/image/'.$recruitment->image) }}"  style="width: 620px;" alt="">
                     </div>
                     <div class="col-lg-6 offset-lg-1">
-                        <h1>{{ old('name', $recruitment->name) }}</h1><br>
+                        <h1>Name : {{ old('name', $recruitment->name) }}</h1><hr>
+                        <p class="fs-5">
+                            <strong>Email :</strong> {{ old('email', $recruitment->email) }}
+                        </p><hr>
+                        <p class="fs-5"><strong>Address :</strong> {{ old('address', $recruitment->address) }}</p><hr>
                         <p align="justify" class="fs-5">
                             {{ old('description', $recruitment->description) }}
-                        </p><br>
-                        <p class="fs-5">
-                            {{ old('email', $recruitment->email) }}
-                        </p><br>
-                        <p class="fs-5">{{ old('address', $recruitment->address) }}</p>
+                        </p>
                     </div>
                     <div class="d-flex justify-content-between">
-                    <a href="{{ route('recruitments.index', $recruitment) }}" class="btn btn-primary" role="button" aria-disabled="true">Home</a><br><br>
                     <form action="{{ route('recruitments.destroy', $recruitment) }}" method="POST">
+                    <a href="{{ route('recruitments.index', $recruitment) }}" class="btn btn-primary" role="button" aria-disabled="true">Home</a><br><br>
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="btn btn-danger">Delete</button>
@@ -84,8 +86,8 @@
         </div>
     </div>
 
-    <!-- Footer
-    <div class="container-fluid py-5 warna5 text-light">
+    @endsection
+    <!-- <div class="container-fluid py-5 warna5 text-light">
         <div class="container d-flex justify-content-between">
             <label>Follow us:</label>
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
@@ -101,18 +103,7 @@
         </div>
     </div> -->
 
-    @endsection
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
-    <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min
-    .js"
-    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi
-    12/QExE" crossorigin="anonymous"></script>
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.
-    min.js"
-    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9U
-    oXAB7BZ" crossorigin="anonymous"></script>
 </body>
 </html>

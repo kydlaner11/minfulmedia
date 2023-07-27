@@ -4,35 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detail Produk</title>
+    <title>Admin Page</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/css/home.css">
+    <!-- <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css">
 </head>
 <body>
     @include('sweetalert::alert')
     @extends('layouts.app')
+
     @section('content')
 
-    <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
     <!-- navbar
     <nav class="navbar navbar-expand-lg navbar-dark warna5">
         <div class="container">
@@ -74,6 +58,26 @@
         </div>
     </nav> -->
 
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div style="background-color: #633971; color: white; font-size: 16px;" class="card-header text-center">{{ __('Logged in') }}</div>
+
+                    <div class="card-body text-center">
+                        @if (session('status'))
+                            <div class="alert alert-success" role="alert">
+                                {{ session('status') }}
+                            </div>
+                        @endif
+
+                        Hi Admin, {{ Auth::user()->name }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- banner
     <div class="container-fluid banner d-flex align-items-center">
         <div class="container text-white">
@@ -82,7 +86,7 @@
             </div>
         </div>
     </div> -->
-
+    
     <!-- body -->
     <section class="about">
         <div class="container py-5">
@@ -90,8 +94,6 @@
                 <div class="col-lg-15">
                     <h3 class="text-center mb-3">Karyawan yang Masuk</h3><br><br>
                     <!-- <a href="{{ route('recruitments.create') }}" class="btn btn-primary">Create</a><br><br> -->
-                    <a href="/recruitments/cetakpdf" class="btn btn-primary" target="_blank">Print PDF</a>
-                    <a href="/recruitments/export_excel" class="btn btn-success my-3" target="_blank">Print EXCEL</a><br><br>
                     <div class="row">
                     @foreach ($recruitments as $recruitment)
                         <div class="col-md-4 mb-4">
@@ -120,20 +122,101 @@
         </div>
     </section>
 
+
+    <div class="container">
+        <a href="/recruitment/export_excel" class="btn btn-success my-3" target="_blank">Print EXCEL</a>
+        <table class="table table-bordered" id="recruitments-table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Image</th>
+                    <th>Created At</th>
+                    <th>Updated At</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            $('#recruitments-table').DataTable({
+                processing: true,
+                serverSide: true,
+                ajax: '{!! route('recruitment.data') !!}', // memanggil route yang menampilkan data json
+                columns: [{ // mengambil & menampilkan kolom sesuai tabel database
+                    data: 'id',
+                    name: 'id'
+                },
+                {
+                    data: 'name',
+                    name: 'name'
+                },
+                {
+                    data: 'email',
+                    name: 'email'
+                },
+                {
+                    data: 'address',
+                    name: 'address'
+                },
+                {
+                    data: 'image',
+                    name: 'image'
+                },
+                {
+                    data: 'created_at',
+                    name: 'created_at'
+                },
+                {
+                    data: 'updated_at',
+                    name: 'updated_at'
+                }
+                ]      
+            });
+        });
+    </script>
+
+    <!-- <div class="container">
+        <a class="btn btn-primary" href="{{ URL::to('/recruitments/pdf') }}">Export to PDF</a> <br><br>
+		<table class='table table-bordered'>
+			<thead>
+				<tr>
+					<th>No</th>
+					<th>Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Image</th>
+                    <th>Created At</th>
+                    <th>Updated At</th>
+				</tr>
+			</thead>
+			<tbody>
+				@php $i=1 @endphp
+				@foreach($recruitments ?? '' as $r)
+				<tr>
+					<td>{{ $i++ }}</td>
+					<td>{{$r->name}}</td>
+					<td>{{$r->email}}</td>
+					<td>{{$r->address}}</td>
+                    <td>{{$r->image}}</td>
+                    <td>{{$r->created_at}}</td>
+                    <td>{{$r->updated_at}}</td>
+				</tr>
+				@endforeach
+			</tbody>
+		</table>
+ 
+	</div> -->
+    
     @endsection
+
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
-    <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min
-    .js"
-    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi
-    12/QExE" crossorigin="anonymous"></script>
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.
-    min.js"
-    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9U
-    oXAB7BZ" crossorigin="anonymous"></script>
-
-
 </body>
 </html>

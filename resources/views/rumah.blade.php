@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-
     <title>MindfulMedia</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
@@ -102,7 +102,7 @@
         <div class="container text-center">
             <h3 class="h3 py-3">Editing Video Example</h3>
                 <div class="video">
-                    <video controls loop autoplay src="video/uwu.mp4" style="width: 70%;"></video>
+                    <video id="video" controls loop autoplay src="video/uwu.mp4" style="width: 70%;"></video>
                 </div>
         </div>
     </div>
@@ -178,7 +178,7 @@
         <div class="container text-center">
             <h3 class="h3 py-3">My After Effect Project</h3>
                 <div class="video">
-                    <video controls loop autoplay src="video/elaina.mp4" style="width: 70%;"></video>
+                    <video id="video" controls loop src="video/elaina.mp4" style="width: 70%;"></video>
                 </div>
         </div>
     </div>
@@ -201,5 +201,10 @@
     
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
+    <script>
+        window.onload = function () {
+        var element = document.getElementById('video');
+        element.muted = "muted";}
+    </script>
 </body>
 </html>
