@@ -30,22 +30,25 @@
     height: 400px;
 }
 
-.keahlian-satu {
-    background: url('../image/codding.png');
+
+.keahlian-satu{
+    background: url('../image/keahlian1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.keahlian-dua {
-    background: url('../image/edit.png');
+
+.keahlian-dua{
+    background: url('../image/keahlian2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.keahlian-tiga {
-    background: url('../image/game.jpeg');
+
+.keahlian-tiga{
+    background: url('../image/keahlian3.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
