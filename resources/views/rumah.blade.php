@@ -11,8 +11,8 @@
     
 </head>
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark warna5">
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark warna5" style="background-color:#633971">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
@@ -22,29 +22,29 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item me-4 mt-1">
-                        <img src="/image/logoblue.png" style="width: 30px;" alt="">
+                        <img src="/image/logo1.png" style="height: 45px;" alt="">
                     </li>
                     <li class="nav-item me-4">
-                        <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" style="color:#F5E9CF;" href="/">Home</a>
                     </li>
                     <li class="nav-item me-4">
-                        <a class="nav-link" href="/projects">Job</a>
+                    <a class="nav-link" style="color:#F5E9CF;" href="/projects">Job</a>
                     </li>
                     <li class="nav-item me-4">
-                        <a class="nav-link" href="/forms">Forms</a>
+                    <a class="nav-link" style="color:#F5E9CF;" href="/forms">Forms</a>
                     </li>
                     <li class="nav-item me-4">
-                        <a class="nav-link" href="/faq">FAQ</a>
+                    <a class="nav-link" style="color:#F5E9CF;" href="/faq">FAQ</a>
                     </li>
                     <li class="nav-item me-4">
-                        <a class="nav-link" href="/recruitments/create">Recruitments</a>
+                    <a class="nav-link" style="color:#F5E9CF;" href="/recruitments/create">Recruitments</a>
                     </li>
                 </ul>
             </div>
             <div class="dropdown">
-            <button style="font-size:14px;" class="btn btn-secondary dropdown-toggle warna3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Login
-            </button>
+                <button style="font-size:14px;" class="btn btn-secondary dropdown-toggle warna3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Login
+                </button>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/recruitments">Admin</a></li>
             </ul>
@@ -55,8 +55,12 @@
 
     <!-- banner -->
     <div class="container-fluid banner d-flex align-items-center">
+        <div style="margin-left: 200px;" class="container text-left text-light">
+            <h1 style="font-size: 47px; font-family: arial;"><strong>Make your best portfolio with Us</strong></h1>
+            <button type="button" class="btn btn-primary" style="background-color: #633971;"><a class="link" style="text-decoration: none;" href="/recruitments/create">Connect</a></button>
+        </div>
         <div class="container text-white">
-            <h1>Otaku Studio</h1>
+            <img src="/image/hero.png" alt="" style="height: 650px;">
             <div class="col-md-8 offset-md-2">
             </div>
         </div>
