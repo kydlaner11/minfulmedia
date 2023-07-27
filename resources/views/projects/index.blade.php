@@ -88,23 +88,21 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <div class="container-fluid py-5 warna5 text-light">
+   <!-- Footer -->
+   <div class="container-fluid py-5 warna5 text-light">
         <div class="container d-flex justify-content-between">
-            <label>Follow us:</label>
+            <label>Follow Us:</label>
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
                     <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-instagram fs-2"></i></a>
                 </div>
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
-                    <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-twitter fs-2"></i></a>
+                    <a class="link" href="https://twitter.com"><i class="fab fa-twitter fs-2"></i></a>
                 </div>
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
-                    <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-whatsapp fs-2"></i></a>
+                    <a class="link" href="wa.me/6289524309404"><i class="fab fa-whatsapp fs-2"></i></a>
                 </div>
-            <label>&copy;Izumiidesu</label>
         </div>
     </div>
-
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>

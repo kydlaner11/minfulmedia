@@ -66,23 +66,20 @@
         </div>
     </div>
 
-    <!-- bio -->
-        <div class="text-center py-5">
+     <!-- bio -->
+     <div class="text-center py-5">
             <h3 class="h3">About Us</h3>
 
             <section class="about">
                 <div class="row">
-                    <div class="images mt-3 mb-3">
+                    {{-- <div class="images mt-3 mb-3">     
                         <img src="/image/blue.jfif" alt="">
-                    </div>
+                    </div> --}}
                     <div class="content">
                         <h3 style="font-size: 30px; color: #633971;">Description<br></h3>
                         <p align="justify" style="font-size: 20px;">
                            <strong> Deskripsi Perusahaan :</strong><br> 
-                            AnimeEdit Studio adalah perusahaan freelancer yang berfokus pada layanan editing video, presentasi, dan foto dengan tema anime. 
-                            Kami menyediakan solusi kreatif dan profesional untuk memenuhi kebutuhan visual anime Anda. Tim kami terdiri dari penggemar anime yang berpengalaman 
-                            dalam mengedit video, membuat presentasi menarik, dan mengolah foto dengan keahlian dalam menghadirkan elemen-elemen anime yang menonjol. 
-                            Dengan dedikasi kami terhadap dunia anime, kami siap membantu Anda menghasilkan karya-karya visual yang memukau. <br>
+                           Selamat datang di platform MindfulMedia yang inovatif dan terpercaya, di mana bakat-bakat kreatif dan profesional berkumpul untuk menghasilakan project yang luar biasa. Di sini, kami menyediakan lapangan kerja yang inspiratif dan memberdayakan, di mana para freelancer dapat mengejar passion mereka dalam berbagai bidang seperti desain grafis, animator, video editor, copywriting, dan banyak lagi. Kami berkomitmen untuk memberikan kesempatan berharga bagi klien dan freelancer untuk terhubung, berkolaborasi, dan meraih kesuksesan bersama. <br>
                         </p>
                         <h3 style="font-size: 30px; color: #633971;">Our Service</h3>
                         <p align="justify" style="font-size: 20px;">
@@ -191,10 +188,10 @@
                     <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-instagram fs-2"></i></a>
                 </div>
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
-                    <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-twitter fs-2"></i></a>
+                    <a class="link" href="https://twitter.com"><i class="fab fa-twitter fs-2"></i></a>
                 </div>
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
-                    <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-whatsapp fs-2"></i></a>
+                    <a class="link" href="wa.me/6289524309404"><i class="fab fa-whatsapp fs-2"></i></a>
                 </div>
         </div>
     </div>

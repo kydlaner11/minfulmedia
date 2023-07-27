@@ -206,13 +206,14 @@
                     <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-instagram fs-2"></i></a>
                 </div>
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
-                    <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-twitter fs-2"></i></a>
+                    <a class="link" href="https://twitter.com"><i class="fab fa-twitter fs-2"></i></a>
                 </div>
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
-                    <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-whatsapp fs-2"></i></a>
+                    <a class="link" href="wa.me/6289524309404"><i class="fab fa-whatsapp fs-2"></i></a>
                 </div>
         </div>
     </div>
+    
     <script src="/js/faq.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
