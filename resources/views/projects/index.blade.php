@@ -45,8 +45,12 @@
 
     <!-- banner -->
     <div class="container-fluid banner d-flex align-items-center">
+        <div style="margin-left: 200px;" class="container text-left text-light">
+            <h1 style="font-size: 47px; font-family: arial;"><strong>Make your best portfolio with Us</strong></h1>
+            <button type="button" class="btn btn-primary" style="background-color: #633971;"><a class="link" style="text-decoration: none;" href="/recruitments/create">Connect</a></button>
+        </div>
         <div class="container text-white">
-            <h1>Mindfull</h1>
+            <img src="/image/hero.png" alt="" style="height: 650px;">
             <div class="col-md-8 offset-md-2">
             </div>
         </div>
@@ -69,7 +73,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">{{ $project->name }}</h5>
                                     <p class="card-text text-truncate">{{ $project->description }}</p>
-                                    <p class="card-text text-harga">{{ $project->price }}</p>
+                                    {{-- <p class="card-text text-harga">{{ $project->price }}</p> --}}
                                     <!-- <a href="{{ route('projects.edit', $project) }}" class="btn btn-primary" role="button" aria-disabled="true">Edit</a><br><br>
                                     <form action="{{ route('projects.destroy', $project) }}" method="POST">
                                         @csrf
@@ -99,7 +103,7 @@
                 <div class="col-sm-1 d-flex justify-content-center mb-2">
                     <a class="link" href="https://www.instagram.com/izumiidesu/?hl=id"><i class="fab fa-whatsapp fs-2"></i></a>
                 </div>
-            <label>&copy;Izumiidesu</label>
+            <label>&copy;MindfulMedia</label>
         </div>
     </div>
 

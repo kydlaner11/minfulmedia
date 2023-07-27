@@ -44,12 +44,11 @@ input, textarea
     color: white;
 }
 
-.banner{
+.banner {
     height: 60vh;
-    background: url('../image/everyone.png');
-    background-repeat: no-repeat;
+    background-image: url('../image/herobg.jpeg');
+    /* background-color: #D7BDE2; */
     background-size: cover;
-    background-position: 10% 60%;
 }
 
 .send{

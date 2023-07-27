@@ -20,10 +20,9 @@
 
 .banner {
     height: 60vh;
-    background: url('../image/everyone.png');
-    background-repeat: no-repeat;
+    background-image: url('../image/herobg.jpeg');
+    /* background-color: #D7BDE2; */
     background-size: cover;
-    background-position: 10% 60%;
 }
 
 .highlighted-keahlian{
@@ -31,24 +30,27 @@
 }
 
 .keahlian-satu{
-    background: url('../image/codding.png');
+    background: url('../image/keahlian1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 .keahlian-dua{
-    background: url('../image/edit.png');
+    background: url('../image/keahlian2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 .keahlian-tiga{
-    background: url('../image/game.jpeg');
+    background: url('../image/keahlian3.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 .no-decoration{
