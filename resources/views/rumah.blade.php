@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Izumi Store</title>
+    <title>Mindfull Media</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/css/master.css">
@@ -56,7 +56,7 @@
     <!-- banner -->
     <div class="container-fluid banner d-flex align-items-center">
         <div class="container text-white">
-            <h1>Otaku Studio</h1>
+            <h1>Mindfull</h1>
             <div class="col-md-8 offset-md-2">
             </div>
         </div>
@@ -98,7 +98,7 @@
         <div class="container text-center">
             <h3 class="h3 py-3">Editing Video Example</h3>
                 <div class="video">
-                    <video controls loop autoplay src="video/uwu.mp4" style="width: 70%;"></video>
+                    <video id="video" controls loop autoplay src="video/uwu.mp4" style="width: 70%;"></video>
                 </div>
         </div>
     </div>
@@ -174,7 +174,7 @@
         <div class="container text-center">
             <h3 class="h3 py-3">My After Effect Project</h3>
                 <div class="video">
-                    <video controls loop autoplay src="video/elaina.mp4" style="width: 70%;"></video>
+                    <video id="video" controls loop src="video/elaina.mp4" style="width: 70%;"></video>
                 </div>
         </div>
     </div>
@@ -197,5 +197,10 @@
     
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
+    <script>
+        window.onload = function () {
+        var element = document.getElementById('video');
+        element.muted = "muted";}
+    </script>
 </body>
 </html>
