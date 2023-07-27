@@ -99,33 +99,32 @@
         </div>
     </div>
 
-    <!-- bio -->
-        <div class="text-center py-5">
-            <h3 style="font-size: 30px; color: #633971;" class="h3">MindfullMedia</h3>
+     <!-- bio -->
+     <div class="text-center py-5">
+        <h3 style="font-size: 30px; color: #633971;" class="h3">MindfullMedia</h3>
 
-            <section class="about">
-                <div class="row">
-                    <div class="content">
-                        <h3 style="font-size: 30px; color: #633971;">Tim Kami<br></h3>
-                        <p align="justify" style="font-size: 20px;">
-                        Kami memiliki tim yang terdiri dari editor video, desainer presentasi, ilustrator, dan retoucher foto yang berbakat dan berdedikasi dalam menciptakan karya-karya 
-                        berkualitas tinggi. Setiap anggota tim kami memiliki pengetahuan yang mendalam tentang editor, gaya visual, dan pengalaman dalam 
-                        industri ini. Kami berkomitmen untuk memberikan hasil yang memenuhi harapan Anda.
-                        </p>
-                        <h3 style="font-size: 30px; color: #633971;">some words that describe MindfullMedia</h3>
-                        <p align="justify" style="font-size: 20px;">
-                            Kreativitas Tanpa Batas: Kami percaya bahwa dalam dunia video, hanya imajinasi yang dapat membatasi apa yang dapat kita capai. Dalam setiap proyek, kami berusaha 
-                            untuk mengeksplorasi batas-batas kreativitas dan memberikan hasil yang menginspirasi.<br><br>
-                            Berkualitas dan Profesionalisme: Setiap file proyek video yang saya tawarkan dan setiap proyek editan yang kami selesaikan mengutamakan kualitas tinggi dan profesionalisme. 
-                            Kami menghargai setiap detail dan berusaha untuk memberikan hasil yang memenuhi harapan Anda.
-                        </p>
-                    </div>
-                    <div class="images mt-3 mb-3">
-                        <img src="/image/twoe.png" alt="">
-                    </div>
+        <section class="about">
+            <div class="row">
+                <div class="content">
+                    <h3 style="font-size: 30px; color: #633971;">Tim Kami<br></h3>
+                    <p align="justify" style="font-size: 20px;">
+                    Kami memiliki tim yang terdiri dari editor video, desainer presentasi, ilustrator dan retoucher foto yang berbakat dan berdedikasi dalam menciptakan karya-karya 
+                    berkualitas tinggi. Setiap anggota tim kami memiliki pengetahuan yang mendalam tentang tool - tool, gaya visual, dan pengalaman dalam industri ini. Kami berkomitmen untuk memberikan hasil yang memenuhi harapan Anda.
+                    </p>
+                    <h3 style="font-size: 30px; color: #633971;">some words that describe MindfullMedia</h3>
+                    <p align="justify" style="font-size: 20px;">
+                        Kreativitas Tanpa Batas: Kami percaya bahwa dalam dunia video, hanya imajinasi yang dapat membatasi apa yang dapat kita capai. Dalam setiap proyek, kami berusaha 
+                        untuk mengeksplorasi batas-batas kreativitas dan memberikan hasil yang menginspirasi.<br><br>
+                        Berkualitas dan Profesionalisme: Setiap file proyek video yang kami tawarkan dan setiap proyek editan yang kami selesaikan mengutamakan kualitas tinggi dan profesionalisme. 
+                        Kami menghargai setiap detail dan berusaha untuk memberikan hasil yang memenuhi harapan Anda.
+                    </p>
                 </div>
-            </section>
-        </div>
+                <div class="images mt-3 mb-3">
+                    <img src="/image/logo1.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!-- highlighted kategori --> 
         <div class="container-fluid py-5">
